@@ -118,32 +118,26 @@ kbd {
 }
 
 .post article h1::before {
-  content: "# ";
   color: var(--secondary);
 }
 
 .post article h2::before {
-  content: "## ";
   color: var(--secondary);
 }
 
 .post article h3::before {
-  content: "### ";
   color: var(--secondary);
 }
 
 .post article h4::before {
-  content: "#### ";
   color: var(--secondary);
 }
 
 .post article h5::before {
-  content: "###### ";
   color: var(--secondary);
 }
 
 .post article h6::before {
-  content: "###### ";
   color: var(--secondary);
 }
 
@@ -230,7 +224,7 @@ blockquote {
   p {
     margin: 0;
   }
-  
+
   p + p {
     margin-top: 1rem;
   }
